@@ -1,0 +1,2 @@
+C:/Users/LOVISHA/Documents/Flutter_Development/shopping_list_app/android/app/.cxx/Debug/3g6d2h6f/x86/CMakeFiles/edit_cache.dir
+C:/Users/LOVISHA/Documents/Flutter_Development/shopping_list_app/android/app/.cxx/Debug/3g6d2h6f/x86/CMakeFiles/rebuild_cache.dir
