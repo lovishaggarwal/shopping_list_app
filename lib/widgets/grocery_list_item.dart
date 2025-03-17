@@ -12,24 +12,56 @@ class GroceryListItem extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return ListTile(
-      title: Text(groceryItem.name),
-      subtitle: Text('Quantity: ${groceryItem.quantity}'),
-      leading: CircleAvatar(
-        backgroundColor: groceryItem.category.color,
-        child: Text(
-          index.toString(),
-          style: Theme.of(context)
-              .textTheme
-              .labelLarge!
-              .copyWith(color: Colors.black),
+    bool undoClicked = false;
+    final itemNotifier = ref.read(itemProvider.notifier);
+
+    void deleteItem() {
+      itemNotifier.removeItem(groceryItem);
+        ScaffoldMessenger.of(context)
+            .showSnackBar(
+              SnackBar(
+                content: Text('Grocery Item Deleted'),
+                duration: Duration(seconds: 2),
+                action: SnackBarAction(
+                  label: "UNDO",
+                  onPressed: () {
+                    undoClicked = true;
+                    itemNotifier.insertItem(index-1, groceryItem);
+                  },
+                ),
+              ),
+            )
+            .closed
+            .then((reason) {
+              if (!undoClicked)
+                itemNotifier.removeFromFirebase(groceryItem);
+        });
+    }
+
+    return Dismissible(
+      key: Key(groceryItem.id),
+      onDismissed: (direction) {
+        deleteItem();
+      },
+      child: ListTile(
+        title: Text(groceryItem.name),
+        subtitle: Text('Quantity: ${groceryItem.quantity}'),
+        leading: CircleAvatar(
+          backgroundColor: groceryItem.category.color,
+          child: Text(
+            index.toString(),
+            style: Theme.of(context)
+                .textTheme
+                .labelLarge!
+                .copyWith(color: Colors.black),
+          ),
         ),
-      ),
-      trailing: IconButton(
-        icon: Icon(Icons.delete),
-        onPressed: () {
-          ref.read(itemProvider.notifier).removeItem(groceryItem);
-        },
+        trailing: IconButton(
+          icon: Icon(Icons.delete),
+          onPressed: () {
+            deleteItem();
+          },
+        ),
       ),
     );
   }

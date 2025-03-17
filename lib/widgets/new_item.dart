@@ -15,20 +15,25 @@ class NewItem extends ConsumerWidget {
     int? quantity;
     Category? itemCategory;
 
-    void saveItem() {
+    void saveItem() async {
       if (_formKey.currentState!.validate()) {
         _formKey.currentState!.save();
         DateTime now = DateTime.now();
         String id = now.millisecondsSinceEpoch.toString();
-        print(id);
         ref.read(itemProvider.notifier).addItem(GroceryItem(
             id: id,
             name: itemName!,
             quantity: quantity!,
             category: itemCategory!));
+        if (!context.mounted) {
+          return;
+        }
         Navigator.pop(context);
       }
     }
+
+    bool _isLoading = ref.read(itemProvider.notifier).isLoading;
+    ref.watch(itemProvider);
 
     return Scaffold(
       appBar: AppBar(
@@ -61,7 +66,7 @@ class NewItem extends ConsumerWidget {
                         labelText: 'Quantity',
                       ),
                       keyboardType: TextInputType.number,
-                      initialValue: '0',
+                      initialValue: '1',
                       validator: (value) => (value == null ||
                               value.isEmpty ||
                               int.tryParse(value) == null ||
@@ -106,16 +111,20 @@ class NewItem extends ConsumerWidget {
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   ElevatedButton(
-                    onPressed: () {
-                      _formKey.currentState!.reset();
-                    },
+                    onPressed: _isLoading
+                        ? null
+                        : () {
+                            _formKey.currentState!.reset();
+                          },
                     child: const Text('Reset'),
                   ),
                   SizedBox(width: 10),
-                  ElevatedButton(
-                    onPressed: saveItem,
-                    child: const Text('Add Item'),
-                  ),
+                  _isLoading
+                      ? CircularProgressIndicator()
+                      : ElevatedButton(
+                          onPressed: saveItem,
+                          child: const Text('Add Item'),
+                        ),
                 ],
               ),
             ],

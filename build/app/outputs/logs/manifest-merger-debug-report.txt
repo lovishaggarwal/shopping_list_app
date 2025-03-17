@@ -2,6 +2,16 @@
 application
 INJECTED from C:\Users\LOVISHA\Documents\Flutter_Development\shopping_list_app\android\app\src\main\AndroidManifest.xml:2:5-33:19
 INJECTED from C:\Users\LOVISHA\Documents\Flutter_Development\shopping_list_app\android\app\src\debug\AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\d8d8bb6b0eba75053dcdcb960f2dc575\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\d8d8bb6b0eba75053dcdcb960f2dc575\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ee41863823381887fde3e2de43d73aaf\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ee41863823381887fde3e2de43d73aaf\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\55f5be125cbdda9951e37732bff2465d\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\55f5be125cbdda9951e37732bff2465d\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\7019b76e95ec68a87c3ea591638ea5d5\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\7019b76e95ec68a87c3ea591638ea5d5\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ace60e8e30df61681292083d41c836d5\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ace60e8e30df61681292083d41c836d5\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.core:core:1.13.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\74c1895ee15d4a639000e095e1132bc7\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
@@ -26,14 +36,19 @@ MERGED from C:\Users\LOVISHA\Documents\Flutter_Development\shopping_list_app\and
 INJECTED from C:\Users\LOVISHA\Documents\Flutter_Development\shopping_list_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\LOVISHA\Documents\Flutter_Development\shopping_list_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\LOVISHA\Documents\Flutter_Development\shopping_list_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\LOVISHA\.gradle\caches\transforms-3\65a5c08d752628b8c3708a8365a22596\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\LOVISHA\.gradle\caches\transforms-3\ea68850512082f572c35eb586837c5e6\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\d8d8bb6b0eba75053dcdcb960f2dc575\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ee41863823381887fde3e2de43d73aaf\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\55f5be125cbdda9951e37732bff2465d\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\7019b76e95ec68a87c3ea591638ea5d5\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\1017b9f6e05bab2c47a4e385584828d8\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window:1.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ace60e8e30df61681292083d41c836d5\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\0e1e3287d91662f525b36a1624e5b207\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\04d56d2e743d3228159a1de888134fe3\transformed\loader-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.8.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\0edaf7ca36034cd46d9bf18c8f233235\transformed\jetified-activity-1.8.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\2707d8e260b3b517a772df6835e31012\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\6a1daa1e42f70b00797141ae30d2e15b\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\6e2b7be7b1d934c6f40ede210b985b3d\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\85f309d4c84b1b405901365042a6e699\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\91b5e5b25377c64804721c876247b2ba\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\d1cfba222281d2f9b19ea73ff8e1aa2f\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\c4e760ca9e30d043477de9b59307c468\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
@@ -82,22 +97,32 @@ uses-sdk
 INJECTED from C:\Users\LOVISHA\Documents\Flutter_Development\shopping_list_app\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\LOVISHA\Documents\Flutter_Development\shopping_list_app\android\app\src\debug\AndroidManifest.xml
 INJECTED from C:\Users\LOVISHA\Documents\Flutter_Development\shopping_list_app\android\app\src\debug\AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\LOVISHA\.gradle\caches\transforms-3\65a5c08d752628b8c3708a8365a22596\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\LOVISHA\.gradle\caches\transforms-3\65a5c08d752628b8c3708a8365a22596\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\LOVISHA\.gradle\caches\transforms-3\ea68850512082f572c35eb586837c5e6\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\LOVISHA\.gradle\caches\transforms-3\ea68850512082f572c35eb586837c5e6\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\d8d8bb6b0eba75053dcdcb960f2dc575\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\d8d8bb6b0eba75053dcdcb960f2dc575\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ee41863823381887fde3e2de43d73aaf\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ee41863823381887fde3e2de43d73aaf\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\55f5be125cbdda9951e37732bff2465d\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\55f5be125cbdda9951e37732bff2465d\transformed\jetified-play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\7019b76e95ec68a87c3ea591638ea5d5\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\7019b76e95ec68a87c3ea591638ea5d5\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\1017b9f6e05bab2c47a4e385584828d8\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\1017b9f6e05bab2c47a4e385584828d8\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window:1.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ace60e8e30df61681292083d41c836d5\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.window:window:1.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ace60e8e30df61681292083d41c836d5\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\0e1e3287d91662f525b36a1624e5b207\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\0e1e3287d91662f525b36a1624e5b207\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\04d56d2e743d3228159a1de888134fe3\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\04d56d2e743d3228159a1de888134fe3\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.8.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\0edaf7ca36034cd46d9bf18c8f233235\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.8.1] C:\Users\LOVISHA\.gradle\caches\transforms-3\0edaf7ca36034cd46d9bf18c8f233235\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\2707d8e260b3b517a772df6835e31012\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\2707d8e260b3b517a772df6835e31012\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\6a1daa1e42f70b00797141ae30d2e15b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\6a1daa1e42f70b00797141ae30d2e15b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\6e2b7be7b1d934c6f40ede210b985b3d\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\6e2b7be7b1d934c6f40ede210b985b3d\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\85f309d4c84b1b405901365042a6e699\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\85f309d4c84b1b405901365042a6e699\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\91b5e5b25377c64804721c876247b2ba\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\91b5e5b25377c64804721c876247b2ba\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\d1cfba222281d2f9b19ea73ff8e1aa2f\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
@@ -138,6 +163,40 @@ MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\LOVISHA\.gradle\c
 		INJECTED from C:\Users\LOVISHA\Documents\Flutter_Development\shopping_list_app\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\LOVISHA\Documents\Flutter_Development\shopping_list_app\android\app\src\debug\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\f22f7e766bca8a22894cd08e556fb0b9\transformed\jetified-play-services-auth-21.3.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ee41863823381887fde3e2de43d73aaf\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ee41863823381887fde3e2de43d73aaf\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ee41863823381887fde3e2de43d73aaf\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ee41863823381887fde3e2de43d73aaf\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\7019b76e95ec68a87c3ea591638ea5d5\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\7019b76e95ec68a87c3ea591638ea5d5\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\7019b76e95ec68a87c3ea591638ea5d5\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.2.0] C:\Users\LOVISHA\.gradle\caches\transforms-3\ace60e8e30df61681292083d41c836d5\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
 	android:required

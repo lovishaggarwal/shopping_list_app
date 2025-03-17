@@ -11,6 +11,8 @@ class GroceryList extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final itemNotifier = ref.read(itemProvider.notifier);
+    bool _isLoading = itemNotifier.isLoading;
+    String errorMessage = itemNotifier.errorMessage;
     List<GroceryItem> groceryItems = ref.watch(itemProvider);
     return Scaffold(
       appBar: AppBar(
@@ -25,41 +27,33 @@ class GroceryList extends ConsumerWidget {
           ),
         ],
       ),
-      body: groceryItems.length == 0
-          ? Center(
-              child: Text(
-                'Please add grocery items via clicking \'+\' icon.',
-                style: Theme.of(context).textTheme.bodyLarge,
-                textAlign: TextAlign.center,
-              ),
-            )
-          : ListView.builder(
-              itemCount: groceryItems.length,
-              itemBuilder: (context, index) {
-                return Dismissible(
-                  key: Key(groceryItems[index].id),
-                  onDismissed: (direction) {
-                    itemNotifier.removeItem(groceryItems[index]);
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text('Grocery Item Deleted'),
-                        duration: Duration(seconds: 2),
-                        action: SnackBarAction(
-                          label: "UNDO",
-                          onPressed: () {
-                            itemNotifier.insertItem(index, groceryItems[index]);
-                          },
-                        ),
-                      ),
-                    );
-                  },
-                  child: GroceryListItem(
-                    groceryItem: groceryItems[index],
-                    index: index + 1,
+      body: _isLoading // Check if data is loading
+          ? Center(child: CircularProgressIndicator())
+          : errorMessage != '' // Check if there is any error while loading data like network issue or something else
+              ? Center(
+                  child: Text(
+                    'An error occured while loading data: '+errorMessage,
+                    style: Theme.of(context).textTheme.bodyLarge,
+                    textAlign: TextAlign.center,
                   ),
-                );
-              },
-            ),
+                )
+              : groceryItems.length == 0 // Check if there are no grocery items
+                  ? Center(
+                      child: Text(
+                        'Please add grocery items via clicking \'+\' icon.',
+                        style: Theme.of(context).textTheme.bodyLarge,
+                        textAlign: TextAlign.center,
+                      ),
+                    )
+                  : ListView.builder(
+                      itemCount: groceryItems.length,
+                      itemBuilder: (context, index) {
+                        return GroceryListItem(
+                          groceryItem: groceryItems[index],
+                          index: index + 1,
+                        );
+                      },
+                    ),
     );
   }
 }
